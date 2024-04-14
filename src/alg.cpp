@@ -47,8 +47,7 @@ int eval(std::string post) {
         char c = post[i];
         if (Cheching_for_a_Num(c)) {
             s.push(alphabet(c));
-        }
-        else {
+        } else {
             int temp2 = s.Get();
             s.Pop();
             int temp1 = s.Get();
