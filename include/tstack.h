@@ -5,10 +5,11 @@
 template<typename T, int size>
 template<typename T, int size>
 class TStack {
-private:
+ private:
     T* arr;
     int top;
-public:
+ public:
+
     TStack() { top = -1; arr = new T[size]; }
     void push(T value) {
         if (isFull())
